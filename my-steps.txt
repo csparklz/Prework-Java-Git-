@@ -1,87 +1,309 @@
-### Step 2A
-
+### Step 2A cd
+slb38@Sparklz MINGW64 ~
+$ pwd
+/c/Users/slb38
 
 ### Step 2B
+slb38@Sparklz MINGW64 ~
+$ cd Desktop
+
+slb38@Sparklz MINGW64 ~/Desktop
 
 
 ### Step 2C
 
+slb38@Sparklz MINGW64 ~/Desktop
+$ cd unit1-git-practice/
+
+slb38@Sparklz MINGW64 ~/Desktop/unit1-git-practice
+$
+
 
 ### Step 2D
+slb38@Sparklz MINGW64 ~/Desktop/unit1-git-practice
+$ pwd
+/c/Users/slb38/Desktop/unit1-git-practice
+
+slb38@Sparklz MINGW64 ~/Desktop/unit1-git-practice
+$
 
 
 ### Step 2E
 
+slb38@Sparklz MINGW64 ~/Desktop/unit1-git-practice
+$ ls
+\my-steps.txt
 
 ### Step 2F
-
+my-steps.txt
 
 ### Step 2G
+slb38@Sparklz MINGW64 ~/Desktop/unit1-git-practice
+$ cd C:
+
+slb38@Sparklz MINGW64 /c
+
 
 
 ### Step 2H
 
+slb38@Sparklz MINGW64 /c
+$ pwd
+/c
 
+slb38@Sparklz MINGW64 /c
+ls
 ### Step 2I
+slb38@Sparklz MINGW64 /c
+$ ls
+'$Recycle.Bin'/   Config.Msi/                Kairos/          'Program Files (x86)'/         System.sav@    hp/
+'$SysReset'/     'Documents and Settings'@   OneDriveTemp/     ProgramData/                  Users/         install.log
+'$WinREAgent'/    DumpStack.log              PerfLogs/         Recovery/                     Windows/       pagefile.sys
+ AppData/         DumpStack.log.tmp         'Program Files'/  'System Volume Information'/   hiberfil.sys   swapfile.sys
 
 
 ### Step 2J
+slb38@Sparklz MINGW64 /c
+$ cd ~
+
+slb38@Sparklz MINGW64 ~
 
 
 ### Step 2K
 
+slb38@Sparklz MINGW64 ~
+$ cd /c
+
+slb38@Sparklz MINGW64 /c
+$ ls
+'$Recycle.Bin'/   Config.Msi/                Kairos/          'Program Files (x86)'/         System.sav@    hp/
+'$SysReset'/     'Documents and Settings'@   OneDriveTemp/     ProgramData/                  Users/         
+
+slb38@Sparklz MINGW64 /c
+$ cd Users/
+
+slb38@Sparklz MINGW64 /c/Users
+$ ls
+'All Users'@   Default/  'Default User'@   Public/   desktop.ini   slb38/
+
+slb38@Sparklz MINGW64 /c/Users
+$ cd slb38/
+
+slb38@Sparklz MINGW64 ~
+$ ls
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+
+
+slb38@Sparklz MINGW64 ~
+$ cd Desktop/
+
+slb38@Sparklz MINGW64 ~/Desktop
+$ ls
+'Virtual CD Manager'/   unit1-git-practice/
+
+slb38@Sparklz MINGW64 ~/Desktop
+$ cd unit1-git-practice/
+
 
 
 ### Step 3A
+slb38@Sparklz MINGW64 ~/Desktop/unit1-git-practice
+$ mkdir veggies
 
+slb38@Sparklz MINGW64 ~/Desktop/unit1-git-practice
+$ mkdir meats
+
+slb38@Sparklz MINGW64 ~/Desktop/unit1-git-practice
+$ mkdir desserts
 
 ### Step 3B
+slb38@Sparklz MINGW64 ~/Desktop/unit1-git-practice
+$ mv desserts sweets
 
 
 ### Step 3C
+slb38@Sparklz MINGW64 ~/Desktop/unit1-git-practice
+$ mkdir protiens
+
+slb38@Sparklz MINGW64 ~/Desktop/unit1-git-practice
+$ mv protiens proteins
 
 
 ### Step 3D
+slb38@Sparklz MINGW64 ~/Desktop/unit1-git-practice
+$ mv meats proteins
 
 
 ### Step 3E
+slb38@Sparklz MINGW64 ~/Desktop/unit1-git-practice
+$ cd veggies/
+
+slb38@Sparklz MINGW64 ~/Desktop/unit1-git-practice/veggies
+$ ls
+carrot.txt/  pea.txt/
+
+slb38@Sparklz MINGW64 ~/Desktop/unit1-git-practice/veggies
+$ rm -r carrot.txt/
+
+slb38@Sparklz MINGW64 ~/Desktop/unit1-git-practice/veggies
+$ rm -r pea.txt/
+
+slb38@Sparklz MINGW64 ~/Desktop/unit1-git-practice/veggies
+$ ls
+
+slb38@Sparklz MINGW64 ~/Desktop/unit1-git-practice/veggies
+$ touch carrot.txt
+
+slb38@Sparklz MINGW64 ~/Desktop/unit1-git-practice/veggies
+$ ls
+carrot.txt
+
+slb38@Sparklz MINGW64 ~/Desktop/unit1-git-practice/veggies
+$ touch pea.txt
+
+slb38@Sparklz MINGW64 ~/Desktop/unit1-git-practice/veggies
+$ ls
+carrot.txt  pea.txt
+
 
 
 ### Step 3F
 
+slb38@Sparklz MINGW64 ~/Desktop/unit1-git-practice/sweets
+$ touch cookie.txt
 
 ### Step 3G
 
+slb38@Sparklz MINGW64 ~/Desktop/unit1-git-practice/sweets
+$ mv cookie.txt donut.txt
+
+slb38@Sparklz MINGW64 ~/Desktop/unit1-git-practice/sweets
+$ ls
+donut.txt
+cd 
 
 ### Step 3H
+slb38@Sparklz MINGW64 ~/Desktop/unit1-git-practice
+$ touch thing.txt
 
 
 ### Step 3I
+slb38@Sparklz MINGW64 ~/Desktop/unit1-git-practice
+$ mv tofu.txt proteins
+
+slb38@Sparklz MINGW64 ~/Desktop/unit1-git-practice
+$ ls
+ Homework/  "last month's mail"/   my-steps.txt   proteins/   sweets/   thing.txt   veggies/
+
+slb38@Sparklz MINGW64 ~/Desktop/unit1-git-practice
+$ cd proteins/
+
+slb38@Sparklz MINGW64 ~/Desktop/unit1-git-practice/proteins
+$ ls
+meats/  tofu.txt
 
 
 ### Step 3J
+slb38@Sparklz MINGW64 ~/Desktop/unit1-git-practice
+$ mv tofu.txt proteins
 
+slb38@Sparklz MINGW64 ~/Desktop/unit1-git-practice
+$ ls
+ Homework/  "last month's mail"/   my-steps.txt   proteins/   sweets/   thing.txt   veggies/
+
+slb38@Sparklz MINGW64 ~/Desktop/unit1-git-practice
+$ cd proteins/
+
+slb38@Sparklz MINGW64 ~/Desktop/unit1-git-practice/proteins
+$ ls
+meats/  tofu.txt
 
 ### Step 3K
-
+mv crab.txt proteins/meatss
 
 ### Step 3L
 
+rm thing.txt
 
 ### Step 3M
+slb38@Sparklz MINGW64 ~/Desktop/unit1-git-practice
+$ cp -r veggies plants
+
+slb38@Sparklz MINGW64 ~/Desktop/unit1-git-practice
+$ ls
+my-steps.txt  plants/  proteins/  sweets/  veggies/
 
 
 ### Step 3N
+slb38@Sparklz MINGW64 ~/Desktop/unit1-git-practice
+$ mkdir drinks
+
+slb38@Sparklz MINGW64 ~/Desktop/unit1-git-practice
+$ rm -r drinks
+
+slb38@Sparklz MINGW64 ~/Desktop/unit1-git-practice
+$ ls
+my-steps.txt  plants/  proteins/  sweets/  veggies/
+
+slb38@Sparklz MINGW64 ~/Desktop/unit1-git-practice
 
 
 
 ### Step 4
+slb38@Sparklz MINGW64 ~/Desktop/unit1-git-practice (main)
+$ git commit -m "First commit for deliverable one."
+[main (root-commit) 98df81f] First commit for deliverable one.
+ 7 files changed, 88 insertions(+)
+ create mode 100644 my-steps.txt
+ create mode 100644 plants/carrot.txt
+ create mode 100644 plants/pea.txt
+ create mode 100644 proteins/tofu.txt
+ create mode 100644 sweets/donut.txt
+ create mode 100644 veggies/carrot.txt
+ create mode 100644 veggies/pea.txt
+
 
 
 ### Step 5
+slb38@Sparklz MINGW64 ~/Desktop/unit1-git-practice (main)
+$ git remote add origin https://github.com/csparklz/Deliverable-1-.git
+git push -u origin main
+
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (7/7), 611 bytes | 611.00 KiB/s, done.
+Total 7 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/csparklz/Deliverable-1-.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
 
 
 ### Step 6
+
+slb38@Sparklz MINGW64 ~/Desktop/unit1-git-practice (main)
+$ git add .
+
+slb38@Sparklz MINGW64 ~/Desktop/unit1-git-practice (main)
+$ git commit -m 'starting a menu'
+[main 290c1fd] starting a menu
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 menu.txt
+slb38@Sparklz MINGW64 ~/Desktop/unit1-git-practice (main)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 276 bytes | 276.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/csparklz/Deliverable-1-.git
+   98df81f..290c1fd  main -> main
 
 
 ### Step 7
